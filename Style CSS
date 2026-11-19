@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #2B1D14;
+    background-color: #EFF2EC;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER */
+header {
+    background: #2F4A3A;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+header .logo {
+    font-size: 56px;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0 0;
+}
+
+/* NAV (botonera) */
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #2B1D14;
+    background: #D9B26F;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+nav a.activo {
+    background: #7A4A2B;
+    color: #FFFFFF;
+}
+
+nav a:focus-visible, a.boton:focus-visible {
+    outline: 3px solid #2F4A3A;
+    outline-offset: 2px;
+}
+
+/* CONTENIDO */
+h2, h3 {
+    color: #7A4A2B;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border-bottom: 2px solid #7A4A2B;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.icono-grande {
+    font-size: 80px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.nota {
+    font-size: 0.9em;
+    color: #5A4638;
+}
+
+/* BOTONES dentro del contenido */
+a.boton {
+    display: inline-block;
+    text-decoration: none;
+    color: #2B1D14;
+    background: #D9B26F;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* TABLAS */
+.tabla {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+th {
+    background: #2F4A3A;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #DCE3D8;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    background: #2F4A3A;
+    color: #FFFFFF;
+}

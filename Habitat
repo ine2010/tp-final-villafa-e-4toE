@@ -1,0 +1,88 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hábitat | Caballos</title>
+    <link rel="stylesheet" href="../html/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+            <h1>Caballos</h1>
+            <p>Todo sobre los caballos: hábitat, alimentos y razas.</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../html/index.html">Inicio</a>
+        <a href="habitat.html" class="activo" aria-current="page">Hábitat</a>
+        <a href="../alimentos/alimentos.html">Alimentos</a>
+        <a href="../razas/razas.html">Razas</a>
+    </nav>
+
+    <main>
+
+        <section id="habitat">
+            <article>
+                <h2>El hábitat del caballo</h2>
+                <p class="icono-grande" aria-hidden="true">🌾</p>
+                <p>
+                    El caballo es un animal de espacios abiertos. En la naturaleza vive en
+                    praderas, estepas y llanuras, donde hay pasto para comer y lugar para
+                    correr, que es su principal defensa frente a los depredadores.
+                    Vive en manadas, y siempre hay algún integrante atento a los peligros.
+                </p>
+            </article>
+
+            <article>
+                <h2>Dónde viven hoy</h2>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <th>Tipo de caballo</th>
+                            <th>Dónde vive</th>
+                            <th>Características</th>
+                        </tr>
+                        <tr>
+                            <td>Caballo de Przewalski</td>
+                            <td>Estepas de Mongolia</td>
+                            <td>Es el único caballo que nunca fue domesticado</td>
+                        </tr>
+                        <tr>
+                            <td>Mustang</td>
+                            <td>Llanuras de Estados Unidos</td>
+                            <td>Descienden de caballos domésticos que volvieron a la vida salvaje</td>
+                        </tr>
+                        <tr>
+                            <td>Caballo doméstico</td>
+                            <td>Campos, potreros y caballerizas</td>
+                            <td>Vive con cuidado de las personas</td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="nota">En América no había caballos antes de que los trajeran los españoles, en el siglo XVI.</p>
+            </article>
+
+            <article>
+                <h2>Datos curiosos</h2>
+                <ol>
+                    <li>Un caballo puede dormir parado, porque sus patas se traban y no se cae.</li>
+                    <li>La altura se mide en "manos": una mano equivale a unos 10 centímetros.</li>
+                    <li>Los caballos tienen tres aires básicos: paso, trote y galope.</li>
+                    <li>Pueden mover las orejas en distintas direcciones, y eso muestra su estado de ánimo.</li>
+                    <li>Con buenos cuidados, un caballo suele vivir entre 25 y 30 años.</li>
+                </ol>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Caballos - Página por Inés Villafañe.</p>
+    </footer>
+
+</body>
+</html>

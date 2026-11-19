@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razas | Caballos</title>
+    <link rel="stylesheet" href="../html/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+            <h1>Caballos</h1>
+            <p>Todo sobre los caballos: hábitat, alimentos y razas.</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../html/index.html">Inicio</a>
+        <a href="../habitat/habitat.html">Hábitat</a>
+        <a href="../alimentos/alimentos.html">Alimentos</a>
+        <a href="razas.html" class="activo" aria-current="page">Razas</a>
+    </nav>
+
+    <main>
+
+
+        <section id="razas">
+            <article>
+                <h2>Razas destacadas</h2>
+                <p>Una selección de razas muy distintas entre sí.</p>
+
+                <h3>Criollo</h3>
+                <p>Raza argentina muy resistente, de contextura fuerte y paso seguro. Es el caballo tradicional del campo y de las pruebas de jineteada y de resistencia.</p>
+
+                <h3>Pura Sangre de Carrera</h3>
+                <p>Raza de origen inglés, alta y delgada, criada para correr a gran velocidad. Es la protagonista de los hipódromos.</p>
+
+                <h3>Árabe</h3>
+                <p>Una de las razas más antiguas, originaria de la Península Arábiga. Se destaca por su cabeza fina, su elegancia y su resistencia en distancias largas.</p>
+
+                <h3>Percherón</h3>
+                <p>Raza francesa de tiro, grande y muy fuerte. Durante años tiró de arados y carruajes pesados.</p>
+            </article>
+
+            <article>
+                <h2>Comparativa rápida</h2>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <th>Raza</th>
+                            <th>Origen</th>
+                            <th>Altura aproximada</th>
+                            <th>Uso principal</th>
+                        </tr>
+                        <tr>
+                            <td>Criollo</td>
+                            <td>Argentina</td>
+                            <td>1,38 a 1,50 m</td>
+                            <td>Trabajo rural y resistencia</td>
+                        </tr>
+                        <tr>
+                            <td>Pura Sangre de Carrera</td>
+                            <td>Inglaterra</td>
+                            <td>1,55 a 1,70 m</td>
+                            <td>Carreras</td>
+                        </tr>
+                        <tr>
+                            <td>Árabe</td>
+                            <td>Península Arábiga</td>
+                            <td>1,42 a 1,55 m</td>
+                            <td>Resistencia y exhibición</td>
+                        </tr>
+                        <tr>
+                            <td>Percherón</td>
+                            <td>Francia</td>
+                            <td>1,60 a 1,75 m</td>
+                            <td>Tiro y trabajo pesado</td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="nota">La altura del caballo se mide hasta la cruz, que es el punto más alto del lomo, donde termina el cuello.</p>
+                <a class="boton" href="../alimentos/alimentos.html">Conocer los alimentos</a>
+            </article>
+        </section>
+
+    
+    </main>
+
+    <footer>
+        <p>Caballos - Página por Inés Villafañe.</p>
+    </footer>
+
+</body>
+</html>

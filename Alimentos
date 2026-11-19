@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentos | Caballos</title>
+    <link rel="stylesheet" href="../html/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+            <h1>Caballos</h1>
+            <p>Todo sobre los caballos: hábitat, alimentos y razas.</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="../html/index.html">Inicio</a>
+        <a href="../habitat/habitat.html">Hábitat</a>
+        <a href="alimentos.html" class="activo" aria-current="page">Alimentos</a>
+        <a href="../razas/razas.html">Razas</a>
+    </nav>
+
+    <main>
+
+        <section id="alimentos">
+            <article>
+                <h2>Qué comen los caballos</h2>
+                <p class="icono-grande" aria-hidden="true"></p>
+                <p>
+                    Los caballos son herbívoros. Su alimento principal es el pasto y, cuando
+                    no hay, el heno. Comen poco y muchas veces al día, porque su estómago es
+                    chico en relación con su tamaño.
+                </p>
+            </article>
+
+            <article>
+                <h2>Alimentos principales</h2>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <th>Alimento</th>
+                            <th>Para qué sirve</th>
+                            <th>Cómo se da</th>
+                        </tr>
+                        <tr>
+                            <td>Pasto y heno</td>
+                            <td>Es la base de la dieta y ayuda a la digestión</td>
+                            <td>Todos los días, en mayor cantidad</td>
+                        </tr>
+                        <tr>
+                            <td>Avena y granos</td>
+                            <td>Aportan energía a los caballos que trabajan o compiten</td>
+                            <td>En porciones chicas, según el trabajo</td>
+                        </tr>
+                        <tr>
+                            <td>Agua</td>
+                            <td>Es necesaria para la digestión y la salud en general</td>
+                            <td>Limpia y siempre disponible</td>
+                        </tr>
+                        <tr>
+                            <td>Sal mineral</td>
+                            <td>Aporta minerales que el caballo necesita</td>
+                            <td>En un bloque, para que lo lama</td>
+                        </tr>
+                        <tr>
+                            <td>Zanahorias y manzanas</td>
+                            <td>Son un premio</td>
+                            <td>En cantidades chicas y cortadas</td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="nota">Un caballo adulto come por día forraje equivalente a entre el 1,5 % y el 2 % de su peso, y puede tomar decenas de litros de agua. Las cantidades varían según el tamaño y el trabajo del animal.</p>
+            </article>
+
+            <article>
+                <h2>Cuidados con la comida</h2>
+                <ul>
+                    <li><strong>Pasto o heno en mal estado:</strong> el moho puede enfermar al caballo.</li>
+                    <li><strong>Cambios bruscos:</strong> la dieta se cambia de a poco para evitar cólicos.</li>
+                    <li><strong>Comida humana:</strong> no se le debe dar, salvo los premios indicados.</li>
+                    <li><strong>Consulta:</strong> el veterinario puede indicar la dieta más adecuada para cada caballo.</li>
+                </ul>
+                <a class="boton" href="../razas/razas.html">Ver las razas</a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Caballos - Página por Inés Villafañe.</p>
+    </footer>
+
+</body>
+</html>
